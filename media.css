@@ -1,0 +1,40 @@
+@media screen and (max-width: 760px){
+
+    .header{
+        flex-direction: column;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .main__title {
+        font-size: 38px;
+        text-align: center;
+        line-height: 10px;
+    }
+
+    .main__paragraph {
+        text-align: center;
+    }
+
+    .form__contact {
+        margin-top: 58px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .form__contact-input {
+        align-self: center;
+    }
+
+    .article__img {
+        margin-right: 100px;
+	    display: none;
+    }
+
+    .header__list {
+        text-align: center;
+    }
+
+}
